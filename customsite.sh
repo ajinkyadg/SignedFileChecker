@@ -6,4 +6,4 @@ sudo apt-get update
 sudo apt-get install -y nginx
 # Set the home page.
 curl -O https://filesamples.com/samples/code/html/sample2.html
-cat sample2.html | sudo tee -a /var/www/html/index.html
+cat sample2.html | sudo tee  /var/www/html/index.html
